@@ -1,0 +1,100 @@
+body {
+  background-color: rgba(0, 0, 0, 0.868);
+}
+
+.container_quiz_home {
+  text-align: center;
+  margin-top: 12%;
+}
+
+.container_quiz_home h3 {
+  color: blue;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 1px;
+}
+
+.container_quiz_home h1 {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.container_quiz_home p {
+  color: #fff;
+}
+
+.container_quiz_home h4 {
+  color: blue;
+}
+
+.content_2 {
+  padding: 0px 30rem;
+}
+
+.container_quiz_home input {
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+#button_submit {
+  background-color: blue;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#button_submit:hover {
+  background-color: rgba(13, 13, 50, 0.726);
+}
+
+/* ======= Score App */
+.score_container {
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.score_container img {
+  width: 8rem;
+}
+
+.score_container h2 b {
+  color: blue;
+  font-size: 30px;
+}
+
+.score_container p {
+  margin: 0px 29rem;
+}
+
+.score_container h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 667px) {
+  .container_quiz_home {
+    text-align: center;
+    margin-top: 30%;
+  }
+  .content_2 {
+    padding: 0rem;
+  }
+
+  .score_container {
+    margin-top: 30%;
+  }
+
+  .score_container p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
